@@ -1,6 +1,3 @@
-<div class="panel panel-default">
-<div class="panel-body">
-Panel Content
-</div>
-<div class="pane-footer">panel footer</div>
-</div>
+<footer class="footer" style="padding-top: 280px;">
+        <h6 class="text-center">Copyright @ Ecomm-Application 2021, Design by JSTech</h6> 
+     </footer>
