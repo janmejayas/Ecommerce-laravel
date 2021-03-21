@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 
-<div class="container-fluid custom-login" style="padding-top: 100px;">
+<div class="container-fluid custom-login" >
     <div class="row justify-content-center mt-5">
       <div class="col-sm-6 col-md-4">
         <form action="/login" class="shadow-lg p-4" method="POST" style="background-color: #d3e9f7;">
@@ -14,6 +14,7 @@
             <i class="fas fa-key"></i><label for="password"class="font-weight-bold pl-2">Password</label><input type="password" class="form-control" placeholder="Password" name="password">
           </div>
           <button type="submit" class="btn btn-outline-danger mt-3 font-weight-bold btn-block shadow-sm">Login</button>
+          <a class="btn btn-outline-success mt-3 font-weight-bold btn-block shadow-sm" href="/register">Register</a>
           
         </form>
         <div class="text-center">

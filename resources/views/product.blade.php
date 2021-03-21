@@ -5,13 +5,13 @@
 
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" style="background-color: #fffde6;">
+  <div class="carousel-inner" style="background-color: #fffde6;margin: auto;">
     @foreach($products as $item)
 
    
     <div class="carousel-item {{$item['id']==1?'active':''}}">
-      <img src="{{$item['gallery']}}" class="d-block " alt="{{$item['name']}}" style="height: 300px;padding-left:400px;">
-      <div class="carousel-caption d-none d-md-block custom-text" style="text-align:left;">
+      <img src="{{$item['gallery']}}" class="d-block " alt="{{$item['name']}}" style="height: 300px;">
+      <div class="carousel-caption d-none d-md-block custom-text" style="text-align:center;">
       <a href="detail/{{$item['id']}}">
       <h5>{{$item['name']}}</h5>
         <p>{{$item['description']}}</p> </a>

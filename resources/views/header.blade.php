@@ -22,7 +22,7 @@ if(Session::has('user'))
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Orders</a>
+        <a class="nav-link" href="/myorder">Orders</a>
       </li>
      
       <form action="/search" class="form-inline my-2 my-lg-0">
@@ -32,7 +32,7 @@ if(Session::has('user'))
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="nav-item ml-40">
-          <a class="nav-link" href="#">cart({{$total}})</a>
+          <a class="nav-link" href="/cartlist">cart({{$total}})</a>
         </li>
         @if(Session::has('user'))
         <li class="nav-item dropdown">
